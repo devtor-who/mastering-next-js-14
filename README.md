@@ -1,6 +1,6 @@
 # mastering-next-js-14
 
-Next-js 14 유튜브 강의 ( https://www.youtube.com/watch?v=GowPe3iiqTs )
+Next-js 14 유튜브 강의 ( https://www.youtube.com/watch?v=FmerxXWD66g&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI )
 
 <br>
 <br>
