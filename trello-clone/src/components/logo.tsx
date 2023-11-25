@@ -10,9 +10,9 @@ const headingFont = localFont({
 function Logo() {
   return (
     <Link href={`/`}>
-      <figure className="hover:opacity-75 transition items-center gap-x-2 pb-1 hidden md:flex">
-        <Image src={`/logo.svg`} alt="로고" height={36} width={36} />
-        <figcaption className={cn('text-lg text-neutral-700', headingFont.className)}>Trelloky</figcaption>
+      <figure className="hover:opacity-75 transition items-center gap-x-1 pb-1 hidden md:flex">
+        <Image src={`/logo.svg`} alt="로고" width={36} height={28} />
+        <figcaption className={cn('text-lg text-neutral-700 pt-1', headingFont.className)}>Trelloky</figcaption>
       </figure>
     </Link>
   );

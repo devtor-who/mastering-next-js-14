@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Noto_Sans_KR } from 'next/font/google';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const noto_Sans_KR = Noto_Sans_KR({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Trelloky - 협업 및 프로젝트 관리',
@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html className="h-[100dvh]" lang="ko">
-      <body className={`${inter.className} h-full`}>{children}</body>
+      <body className={`${noto_Sans_KR.className} h-full`}>{children}</body>
     </html>
   );
 }
