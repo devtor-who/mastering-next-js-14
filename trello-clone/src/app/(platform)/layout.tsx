@@ -1,3 +1,4 @@
+import { koKR } from '@clerk/localizations';
 import { ClerkProvider } from '@clerk/nextjs';
 
 function PlatformLayout({
@@ -5,7 +6,7 @@ function PlatformLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <ClerkProvider>{children}</ClerkProvider>;
+  return <ClerkProvider localization={koKR}>{children}</ClerkProvider>;
 }
 
 export default PlatformLayout;
