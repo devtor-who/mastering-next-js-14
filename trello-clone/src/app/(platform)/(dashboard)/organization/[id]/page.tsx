@@ -7,7 +7,6 @@ function OrganizationPage() {
   return (
     <div>
       <OrganizationSwitcher hidePersonal />
-      orgId: {orgId}
     </div>
   );
 }
